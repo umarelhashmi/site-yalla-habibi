@@ -16,5 +16,5 @@ rsync -avz --delete \
   --exclude 'deploy.sh' \
   ./ "${DEPLOY_HOST}:${DEPLOY_PATH}"
 
-ssh "${DEPLOY_HOST}" "chown -R kvtjfIhctlu:kvtjfIhctlu /home/kvtjfIhctlu/web/yallahabibi.aviaorlando.com/public_html"
+ssh "${DEPLOY_HOST}" "chown -R kvtjfIhctlu:kvtjfIhctlu /home/kvtjfIhctlu/web/yallahabibi.aviaorlando.com/public_html && find /home/kvtjfIhctlu/web/yallahabibi.aviaorlando.com/public_html -type d -exec chmod 755 {} + && find /home/kvtjfIhctlu/web/yallahabibi.aviaorlando.com/public_html -type f -exec chmod 644 {} +"
 echo "Deployment complete -> https://yallahabibi.aviaorlando.com"
