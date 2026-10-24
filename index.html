@@ -23,7 +23,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@700&family=Barlow+Condensed:wght@700;800&family=Cairo:wght@400;600;700;800;900&family=Cinzel:wght@600;700;800;900&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
 
   <!-- Main Stylesheet (Cache-Busted for Cloudflare) -->
-  <link rel="stylesheet" href="assets/css/styles.css?v=20261024-6" />
+  <link rel="stylesheet" href="assets/css/styles.css?v=20261024-7" />
 
   <!-- Restaurant Schema.org JSON-LD -->
   <script type="application/ld+json">
@@ -78,13 +78,13 @@
       </div>
       <div class="topbar-right">
         <a href="https://maps.google.com/?q=3295+Oxford+Dr,+Kissimmee,+FL+34746" target="_blank" rel="noopener" class="topbar-link">
-          📍 <span>3295 Oxford Dr, Kissimmee, FL</span>
+          <span>3295 Oxford Dr, Kissimmee, FL</span>
         </a>
         <a href="tel:+14075073991" class="topbar-link">
-          📞 <span>(407) 507-3991</span>
+          <span>(407) 507-3991</span>
         </a>
         <a href="https://www.instagram.com/yalla.habiibi" target="_blank" rel="noopener" class="topbar-link">
-          📸 <span>@yalla.habiibi</span>
+          <span>@yalla.habiibi</span>
         </a>
       </div>
     </div>
@@ -166,10 +166,8 @@
       <div class="container hero-grid">
         <!-- Left Copy Column -->
         <div class="hero-copy">
-          <div class="hero-badges">
-            <span class="pill-badge neon" data-i18n="hero_badge_1">✨ Live Music &amp; Cabaret Dinner Show</span>
-            <span class="pill-badge gold" data-i18n="hero_badge_2">★ 33+ Five-Star Google Reviews</span>
-            <span class="pill-badge emerald" data-i18n="hero_badge_3">🇲🇦 Authentic Moroccan &amp; Mediterranean Kitchen</span>
+          <div class="hero-kicker" data-i18n="hero_kicker">
+            KISSIMMEE’S MOROCCAN SUPPER CLUB &amp; DINNER SHOW · 3295 OXFORD DR
           </div>
 
           <h1 class="hero-title" data-i18n-html="hero_title_html">
@@ -182,13 +180,13 @@
 
           <div class="hero-cta-group">
             <a href="https://www.doordash.com/store/yalla-habibi-kissimmee-kissimmee-39432155/91369146/?pickup=true&rwg_token=AE37R_itTbMKpbYK1_kYOFUnjckwQtKxqdJF6EoWpa2tRBMeok9BpPxOhDRFEuZLDOG2q1v1fxo66HFV6h13Ggjli9ko0-eSbg==&utm_campaign=gpa" target="_blank" rel="noopener" class="btn btn-doordash">
-              🛵 <span data-i18n="hero_cta_order">Order Pickup / Delivery</span>
+              <span data-i18n="hero_cta_order">Order Pickup / Delivery</span>
             </a>
             <a href="tel:+14075073991" class="btn btn-gold">
-              📞 <span data-i18n="hero_cta_vip">Call for Reservations · (407) 507-3991</span>
+              <span data-i18n="hero_cta_vip">Reservations · (407) 507-3991</span>
             </a>
             <a href="#menu" class="btn btn-outline">
-              📖 <span data-i18n="hero_cta_menu">Browse Full Menu</span>
+              <span data-i18n="hero_cta_menu">Explore Full Menu</span>
             </a>
           </div>
 
@@ -202,8 +200,8 @@
               <div class="trust-stat-label" data-i18n="stat_2_lbl">Late-Night Kitchen, Hookah, Moroccan Mint Tea &amp; Desserts</div>
             </div>
             <div class="trust-stat">
-              <div class="trust-stat-val" data-i18n="stat_3_val">Live Show</div>
-              <div class="trust-stat-label" data-i18n="stat_3_lbl">Live Stage Music, Dancers &amp; Group Celebrations Hosted by Sim</div>
+              <div class="trust-stat-val" data-i18n="stat_3_val">5.0★ Rated</div>
+              <div class="trust-stat-label" data-i18n="stat_3_lbl">33+ Five-Star Google Reviews · Live Stage Hosted by Sim</div>
             </div>
           </div>
         </div>
@@ -215,7 +213,7 @@
             <img src="assets/images/ai/logo-emblem.png" alt="Yalla Habibi Crest" class="hero-logo-crest" width="78" height="78" />
 
             <div style="text-align:center; position:relative; z-index:4; margin-bottom:0.25rem;">
-              <span class="dish-tag crimson" id="heroDishBadge">👑 #1 Guest Favorite</span>
+              <span class="dish-tag" id="heroDishBadge">PLATE NO. 01 · CHEF MOUNA’S SPECIALTY</span>
             </div>
 
             <div class="hero-dish-carousel-stage">
@@ -225,13 +223,13 @@
             <div class="hero-dish-caption-bar">
               <div class="hero-dish-meta">
                 <h3 id="heroDishTitle">Moroccan Lamb Tagine</h3>
-                <p id="heroDishSub">Slow-Braised Lamb · Caramelized Prunes · Toasted Almonds &amp; Sesame</p>
+                <p id="heroDishSub">Slow-Braised Lamb · Prunes, Apricots, Toasted Almonds &amp; Pistachios</p>
               </div>
-              <span class="hero-dish-price-tag" id="heroDishPrice">$27.99</span>
+              <span class="hero-dish-price-tag" id="heroDishPrice">$23.99</span>
             </div>
           </div>
 
-          <!-- Interactive 6-Dish Switcher Pills -->
+          <!-- Interactive 6-Dish Switcher Ledger -->
           <div class="hero-Quick-switcher" id="heroQuickSwitcher" aria-label="Switch featured dish"></div>
         </div>
       </div>
@@ -242,19 +240,19 @@
          ====================================================================== -->
     <div class="ribbon-marquee" aria-hidden="true">
       <div class="marquee-track">
-        <div class="marquee-item"><span class="sep">✦</span> <span data-i18n="marquee_1">YALLA HABIBI · RESTAURANT &amp; DINNER SHOW</span></div>
-        <div class="marquee-item"><span class="sep">✦</span> <span data-i18n="marquee_2">AUTHENTIC MOROCCAN LAMB &amp; LEMON CHICKEN TAGINES</span></div>
-        <div class="marquee-item"><span class="sep">✦</span> <span data-i18n="marquee_3">CRISPY SAFFRON &amp; ALMOND CHICKEN PASTILLA</span></div>
-        <div class="marquee-item"><span class="sep">✦</span> <span data-i18n="marquee_4">HABIBI CRUSTED SHRIMP &amp; ROYAL SEAFOOD PLATTERS</span></div>
-        <div class="marquee-item"><span class="sep">✦</span> <span data-i18n="marquee_5">MOROCCAN MINT TEA, HOOKAH &amp; DESSERTS UNTIL 2 AM</span></div>
-        <div class="marquee-item"><span class="sep">✦</span> <span data-i18n="marquee_6">3295 OXFORD DR, KISSIMMEE · (407) 507-3991</span></div>
+        <div class="marquee-item"><span class="sep">❖</span> <span data-i18n="marquee_1">YALLA HABIBI · RESTAURANT &amp; DINNER SHOW</span></div>
+        <div class="marquee-item"><span class="sep">❖</span> <span data-i18n="marquee_2">AUTHENTIC MOROCCAN LAMB &amp; LEMON CHICKEN TAGINES</span></div>
+        <div class="marquee-item"><span class="sep">❖</span> <span data-i18n="marquee_3">CRISPY SAFFRON &amp; ALMOND CHICKEN PASTILLA</span></div>
+        <div class="marquee-item"><span class="sep">❖</span> <span data-i18n="marquee_4">HABIBI CRUSTED SHRIMP &amp; ROYAL SEAFOOD PLATTERS</span></div>
+        <div class="marquee-item"><span class="sep">❖</span> <span data-i18n="marquee_5">MOROCCAN MINT TEA, HOOKAH &amp; DESSERTS UNTIL 2 AM</span></div>
+        <div class="marquee-item"><span class="sep">❖</span> <span data-i18n="marquee_6">3295 OXFORD DR, KISSIMMEE · (407) 507-3991</span></div>
         <!-- Duplicate for seamless loop -->
-        <div class="marquee-item"><span class="sep">✦</span> <span data-i18n="marquee_1">YALLA HABIBI · RESTAURANT &amp; DINNER SHOW</span></div>
-        <div class="marquee-item"><span class="sep">✦</span> <span data-i18n="marquee_2">AUTHENTIC MOROCCAN LAMB &amp; LEMON CHICKEN TAGINES</span></div>
-        <div class="marquee-item"><span class="sep">✦</span> <span data-i18n="marquee_3">CRISPY SAFFRON &amp; ALMOND CHICKEN PASTILLA</span></div>
-        <div class="marquee-item"><span class="sep">✦</span> <span data-i18n="marquee_4">HABIBI CRUSTED SHRIMP &amp; ROYAL SEAFOOD PLATTERS</span></div>
-        <div class="marquee-item"><span class="sep">✦</span> <span data-i18n="marquee_5">MOROCCAN MINT TEA, HOOKAH &amp; DESSERTS UNTIL 2 AM</span></div>
-        <div class="marquee-item"><span class="sep">✦</span> <span data-i18n="marquee_6">3295 OXFORD DR, KISSIMMEE · (407) 507-3991</span></div>
+        <div class="marquee-item"><span class="sep">❖</span> <span data-i18n="marquee_1">YALLA HABIBI · RESTAURANT &amp; DINNER SHOW</span></div>
+        <div class="marquee-item"><span class="sep">❖</span> <span data-i18n="marquee_2">AUTHENTIC MOROCCAN LAMB &amp; LEMON CHICKEN TAGINES</span></div>
+        <div class="marquee-item"><span class="sep">❖</span> <span data-i18n="marquee_3">CRISPY SAFFRON &amp; ALMOND CHICKEN PASTILLA</span></div>
+        <div class="marquee-item"><span class="sep">❖</span> <span data-i18n="marquee_4">HABIBI CRUSTED SHRIMP &amp; ROYAL SEAFOOD PLATTERS</span></div>
+        <div class="marquee-item"><span class="sep">❖</span> <span data-i18n="marquee_5">MOROCCAN MINT TEA, HOOKAH &amp; DESSERTS UNTIL 2 AM</span></div>
+        <div class="marquee-item"><span class="sep">❖</span> <span data-i18n="marquee_6">3295 OXFORD DR, KISSIMMEE · (407) 507-3991</span></div>
       </div>
     </div>
 
@@ -265,7 +263,7 @@
       <div class="container">
         <div class="acts-grid">
           <article class="act-card">
-            <span class="act-step" data-i18n="act1_step">LUNCH &amp; EARLY DINNER · FROM 1 PM / 5 PM</span>
+            <span class="act-step" data-i18n="act1_step">ACT I · LUNCH &amp; EARLY DINNER · FROM 1 PM / 5 PM</span>
             <h2 class="act-title" data-i18n="act1_title">Authentic Moroccan Kitchen</h2>
             <p class="act-desc" data-i18n="act1_desc">
               Start with warm pita, smoky Baba Ghanouj, Hummus, and Moroccan Zaalouk, followed by slow-simmered Lamb Tagine, Lemon Chicken Tagine, or crispy Chicken Pastilla.
@@ -273,7 +271,7 @@
           </article>
 
           <article class="act-card">
-            <span class="act-step" data-i18n="act2_step">DINNER SHOW · NIGHTLY STAGE</span>
+            <span class="act-step" data-i18n="act2_step">ACT II · DINNER SHOW · NIGHTLY STAGE</span>
             <h2 class="act-title" data-i18n="act2_title">Live Music &amp; Cabaret Show</h2>
             <p class="act-desc" data-i18n="act2_desc">
               Our red-carpet stage comes alive with live Arabic vocalists, keyboard music, dancers, and interactive crowd energy—ideal for birthdays, couples, and group nights out.
@@ -281,7 +279,7 @@
           </article>
 
           <article class="act-card">
-            <span class="act-step" data-i18n="act3_step">LATE NIGHT · OPEN UNTIL 2:00 AM</span>
+            <span class="act-step" data-i18n="act3_step">ACT III · LATE NIGHT · OPEN UNTIL 2:00 AM</span>
             <h2 class="act-title" data-i18n="act3_title">Midnight Lounge, Mint Tea &amp; Hookah</h2>
             <p class="act-desc" data-i18n="act3_desc">
               Unwind late into the night over pots of fresh Moroccan mint tea, Red Velvet or Pistachio cake, hookah, and hot plates fresh from the grill.
@@ -304,10 +302,10 @@
           </p>
         </div>
 
-        <!-- 4 Compact Uniform Cards (225px height, object-fit: cover) -->
+        <!-- 4 Compact Uniform Cards (220px height, object-fit: cover) -->
         <div class="bento-stage-grid">
           <article class="bento-card">
-            <img src="assets/images/gmaps/eve_mand_review_1.jpg" alt="Live Musician Performing on Stage at Yalla Habibi" width="400" height="225" loading="lazy" />
+            <img src="assets/images/gmaps/eve_mand_review_1.jpg" alt="Live Musician Performing on Stage at Yalla Habibi" width="400" height="220" loading="lazy" />
             <div class="bento-overlay">
               <span class="bento-badge" data-i18n="bento_1_badge">Live On Stage</span>
               <h3 class="bento-title" data-i18n="bento_1_title">Live Singers &amp; Keyboard Music</h3>
@@ -316,7 +314,7 @@
           </article>
 
           <article class="bento-card">
-            <img src="assets/images/gmaps/by_owner_0.jpg" alt="Yalla Habibi Main Dining Room and Stage" width="400" height="225" loading="lazy" />
+            <img src="assets/images/gmaps/by_owner_0.jpg" alt="Yalla Habibi Main Dining Room and Stage" width="400" height="220" loading="lazy" />
             <div class="bento-overlay">
               <span class="bento-badge gold" data-i18n="bento_2_badge">Main Dining Room</span>
               <h3 class="bento-title" data-i18n="bento_2_title">The Red Carpet Stage</h3>
@@ -325,7 +323,7 @@
           </article>
 
           <article class="bento-card">
-            <img src="assets/images/gmaps/sofia_review_1.jpg" alt="Yalla Habibi Red Carpet Entrance" width="400" height="225" loading="lazy" />
+            <img src="assets/images/gmaps/sofia_review_1.jpg" alt="Yalla Habibi Red Carpet Entrance" width="400" height="220" loading="lazy" />
             <div class="bento-overlay">
               <span class="bento-badge" data-i18n="bento_3_badge">Celebrations</span>
               <h3 class="bento-title" data-i18n="bento_3_title">Red Carpet Entrance</h3>
@@ -334,7 +332,7 @@
           </article>
 
           <article class="bento-card">
-            <img src="assets/images/gmaps/red_plush_seating_bar.jpg" alt="Golden Geometric Moroccan Bar and Plush Velvet Lounge" width="400" height="225" loading="lazy" />
+            <img src="assets/images/gmaps/red_plush_seating_bar.jpg" alt="Golden Geometric Moroccan Bar and Plush Velvet Lounge" width="400" height="220" loading="lazy" />
             <div class="bento-overlay">
               <span class="bento-badge gold" data-i18n="bento_4_badge">Lounge &amp; Bar</span>
               <h3 class="bento-title" data-i18n="bento_4_title">Gold Moroccan Arches &amp; Bar</h3>
@@ -343,22 +341,22 @@
           </article>
         </div>
 
-        <!-- 4 Hospitality Pillars -->
+        <!-- 4 Hospitality Ledger Pillars -->
         <div class="story-pillars">
           <div class="pillar-card">
-            <h4 data-i18n="pillar_1_title">👑 Hosted by Sim (Simo) &amp; Shereen</h4>
+            <h4 data-i18n="pillar_1_title">I · Hosted by Sim (Simo) &amp; Shereen</h4>
             <p data-i18n="pillar_1_desc">Guests consistently praise Sim and Shereen for warm, attentive hospitality from the moment you walk through the door.</p>
           </div>
           <div class="pillar-card">
-            <h4 data-i18n="pillar_2_title">🍲 Chef Mouna’s Moroccan Recipes</h4>
+            <h4 data-i18n="pillar_2_title">II · Chef Mouna’s Moroccan Kitchen</h4>
             <p data-i18n="pillar_2_desc">Real Moroccan cooking—fall-off-the-bone Lamb Tagine, Lemon Chicken Tagine, Chicken Pastilla, and fried Moroccan-style fish.</p>
           </div>
           <div class="pillar-card">
-            <h4 data-i18n="pillar_3_title">🎉 Birthdays &amp; Nights Out</h4>
+            <h4 data-i18n="pillar_3_title">III · Birthdays &amp; Group Nights Out</h4>
             <p data-i18n="pillar_3_desc">Live music, dancers, and themed nights create an interactive celebration atmosphere for birthdays and groups.</p>
           </div>
           <div class="pillar-card">
-            <h4 data-i18n="pillar_4_title">🫖 Open Late Until 2:00 AM</h4>
+            <h4 data-i18n="pillar_4_title">IV · Open Late Until 2:00 AM</h4>
             <p data-i18n="pillar_4_desc">One of Kissimmee’s favorite late-night spots for dinner, Moroccan mint tea, hookah, and house desserts.</p>
           </div>
         </div>
@@ -366,13 +364,13 @@
     </section>
 
     <!-- ======================================================================
-         7. SIGNATURE DISHES — COMPACT MOORISH ARCH CARDS
+         7. SIGNATURE DISHES — ARCHITECTURAL BRASS FRAME PLATES
          ====================================================================== -->
     <section class="section section-velvet" id="signatures">
       <div class="container">
         <div class="section-header center">
-          <span class="eyebrow" data-i18n="sig_eyebrow">House Specialties · Click Any Dish for Details</span>
-          <h2 class="section-title" data-i18n="sig_title">Signature Moroccan &amp; Mediterranean Dishes</h2>
+          <span class="eyebrow" data-i18n="sig_eyebrow">House Specialties · Select Any Plate to Inspect</span>
+          <h2 class="section-title" data-i18n="sig_title">Signature Moroccan &amp; Mediterranean Plates</h2>
           <p class="section-desc" data-i18n="sig_desc">
             Prepared fresh with saffron, preserved lemon, toasted almonds, olive oil, and traditional Moroccan spices.
           </p>
@@ -389,17 +387,17 @@
     <section class="section" id="menu">
       <div class="container">
         <div class="section-header">
-          <span class="eyebrow" data-i18n="menu_eyebrow">Complete Menu · DoorDash &amp; In-House Dining</span>
+          <span class="eyebrow" data-i18n="menu_eyebrow">Complete Menu Ledger · DoorDash &amp; In-House Dining</span>
           <h2 class="section-title" data-i18n="menu_title">Explore Our Full Menu</h2>
           <p class="section-desc" data-i18n="menu_desc">
-            Filter by category or search in English or Arabic. Click any dish to inspect details or order online on DoorDash.
+            Filter by category or search in English or Arabic. Select any dish to inspect details or order online on DoorDash.
           </p>
         </div>
 
         <div class="menu-controls">
           <div class="menu-search-row">
             <div class="menu-search-box">
-              <span class="menu-search-icon">🔍</span>
+              <span class="menu-search-icon">⌕</span>
               <input
                 type="search"
                 id="menuSearchInput"
@@ -409,7 +407,7 @@
               />
             </div>
             <a href="https://www.doordash.com/store/yalla-habibi-kissimmee-kissimmee-39432155/91369146/?pickup=true&rwg_token=AE37R_itTbMKpbYK1_kYOFUnjckwQtKxqdJF6EoWpa2tRBMeok9BpPxOhDRFEuZLDOG2q1v1fxo66HFV6h13Ggjli9ko0-eSbg==&utm_campaign=gpa" target="_blank" rel="noopener" class="btn btn-doordash">
-              🛵 <span data-i18n="menu_order_all_btn">Order Online on DoorDash</span>
+              <span data-i18n="menu_order_all_btn">Order Online on DoorDash</span>
             </a>
           </div>
 
@@ -424,10 +422,10 @@
         <div class="printed-menus-strip" id="printed-menus">
           <div>
             <span class="eyebrow" style="margin-bottom:0.55rem;" data-i18n="printed_eyebrow">Official Restaurant Menus</span>
-            <h3 style="font-family:var(--font-display); font-size:1.4rem; color:var(--gold-light); margin-bottom:0.45rem;" data-i18n="printed_title">
+            <h3 style="font-family:var(--font-display); font-size:1.35rem; color:var(--gold-light); margin-bottom:0.45rem;" data-i18n="printed_title">
               View Our Printed Lunch &amp; Dinner Show Menus
             </h3>
-            <p style="color:var(--text-champagne); font-size:0.88rem; margin-bottom:1rem;" data-i18n="printed_desc">
+            <p style="color:var(--text-champagne); font-size:0.86rem; margin-bottom:1rem;" data-i18n="printed_desc">
               Browse the high-resolution scans of our in-house Lunch Menu (11 AM – 5 PM) and Dinner Show Menu.
             </p>
             <div style="display:flex; flex-wrap:wrap; gap:0.65rem;">
@@ -472,14 +470,14 @@
             <div class="rating-number">5.0★</div>
             <div>
               <div class="rating-stars">★★★★★</div>
-              <div style="font-size:0.8rem; color:var(--text-champagne); font-weight:700;" data-i18n="rev_count_sub">Verified Google Maps Reviews</div>
+              <div style="font-size:0.78rem; color:var(--text-champagne); font-weight:700;" data-i18n="rev_count_sub">Verified Google Maps Reviews</div>
             </div>
           </div>
           <div>
-            <h3 style="font-family:var(--font-display); font-size:1.2rem; color:var(--gold-light); margin-bottom:0.2rem;" data-i18n="rev_banner_title">
+            <h3 style="font-family:var(--font-display); font-size:1.15rem; color:var(--gold-light); margin-bottom:0.2rem;" data-i18n="rev_banner_title">
               33+ Five-Star Google Reviews
             </h3>
-            <p style="font-size:0.86rem; color:var(--text-champagne);" data-i18n="rev_banner_sub">
+            <p style="font-size:0.84rem; color:var(--text-champagne);" data-i18n="rev_banner_sub">
               Praised for Lamb Tagine, Fried Seafood Plate, Habibi Crusted Shrimp, Live Dinner Show, and Manager Sim &amp; Chef Mouna.
             </p>
           </div>
@@ -509,32 +507,32 @@
         <div class="location-grid">
           <div class="location-info-card">
             <div>
-              <h3 style="font-family:var(--font-display); font-size:1.3rem; color:var(--gold-primary); margin-bottom:0.35rem;" data-i18n="loc_card_title">
+              <h3 style="font-family:var(--font-display); font-size:1.25rem; color:var(--gold-primary); margin-bottom:0.35rem;" data-i18n="loc_card_title">
                 Yalla Habibi · Restaurant &amp; Dinner Show
               </h3>
-              <p style="font-size:0.9rem; color:var(--text-champagne);">
+              <p style="font-size:0.88rem; color:var(--text-champagne);">
                 <strong style="color:var(--gold-light);" data-i18n="loc_address_label">Address:</strong> 3295 Oxford Dr, Kissimmee, FL 34746
               </p>
-              <p style="font-size:0.9rem; color:var(--text-champagne); margin-top:0.2rem;">
+              <p style="font-size:0.88rem; color:var(--text-champagne); margin-top:0.2rem;">
                 <strong style="color:var(--gold-light);" data-i18n="loc_phone_label">Phone &amp; Reservations:</strong>
                 <a href="tel:+14075073991" style="color:var(--gold-primary); font-weight:800;"> (407) 507-3991</a>
               </p>
             </div>
 
             <div>
-              <h4 style="font-size:0.82rem; text-transform:uppercase; letter-spacing:0.06em; color:var(--gold-light); margin-bottom:0.45rem;" data-i18n="loc_hours_heading">
+              <h4 style="font-size:0.78rem; text-transform:uppercase; letter-spacing:0.08em; color:var(--gold-light); margin-bottom:0.45rem;" data-i18n="loc_hours_heading">
                 Weekly Hours (Eastern Time)
               </h4>
               <ul class="hours-list" id="locationHoursList"></ul>
             </div>
 
             <div class="amenities-grid">
-              <span class="amenity-chip" data-i18n="amenity_1">✓ Dine-In, Takeout &amp; Curbside Pickup</span>
-              <span class="amenity-chip" data-i18n="amenity_2">✓ Live Music &amp; Dinner Show</span>
-              <span class="amenity-chip" data-i18n="amenity_3">✓ Open Late Until 2:00 AM</span>
-              <span class="amenity-chip" data-i18n="amenity_4">✓ Free Parking Lot &amp; Street Parking</span>
-              <span class="amenity-chip" data-i18n="amenity_5">✓ Wheelchair Accessible</span>
-              <span class="amenity-chip" data-i18n="amenity_6">✓ Reservations &amp; Group Seating</span>
+              <span class="amenity-chip" data-i18n="amenity_1">Dine-In, Takeout &amp; Curbside Pickup</span>
+              <span class="amenity-chip" data-i18n="amenity_2">Live Music &amp; Dinner Show</span>
+              <span class="amenity-chip" data-i18n="amenity_3">Open Late Until 2:00 AM</span>
+              <span class="amenity-chip" data-i18n="amenity_4">Free Parking Lot &amp; Street Parking</span>
+              <span class="amenity-chip" data-i18n="amenity_5">Wheelchair Accessible</span>
+              <span class="amenity-chip" data-i18n="amenity_6">Reservations &amp; Group Seating</span>
             </div>
 
             <div style="display:flex; flex-wrap:wrap; gap:0.65rem; margin-top:auto;">
@@ -555,7 +553,7 @@
               referrerpolicy="no-referrer-when-downgrade"
             ></iframe>
             <div class="map-footer-bar">
-              <span data-i18n="map_footer_text">📍 3295 Oxford Dr, Kissimmee, FL 34746 · Free Parking Lot</span>
+              <span data-i18n="map_footer_text">3295 Oxford Dr, Kissimmee, FL 34746 · Free Parking Lot</span>
               <a href="https://maps.google.com/?q=3295+Oxford+Dr,+Kissimmee,+FL+34746" target="_blank" rel="noopener" style="text-decoration:underline;" data-i18n="map_footer_link">
                 Open in Google Maps →
               </a>
@@ -620,9 +618,9 @@
         <div class="footer-col">
           <h4 data-i18n="footer_col_contact">Contact &amp; Location</h4>
           <ul class="footer-links">
-            <li>📍 3295 Oxford Dr, Kissimmee, FL 34746</li>
-            <li><a href="tel:+14075073991">📞 (407) 507-3991</a></li>
-            <li><a href="https://www.instagram.com/yalla.habiibi" target="_blank" rel="noopener">📸 Instagram @yalla.habiibi</a></li>
+            <li>3295 Oxford Dr, Kissimmee, FL 34746</li>
+            <li><a href="tel:+14075073991">(407) 507-3991</a></li>
+            <li><a href="https://www.instagram.com/yalla.habiibi" target="_blank" rel="noopener">Instagram @yalla.habiibi</a></li>
             <li style="margin-top:0.45rem;">
               <a href="https://www.doordash.com/store/yalla-habibi-kissimmee-kissimmee-39432155/91369146/?pickup=true&rwg_token=AE37R_itTbMKpbYK1_kYOFUnjckwQtKxqdJF6EoWpa2tRBMeok9BpPxOhDRFEuZLDOG2q1v1fxo66HFV6h13Ggjli9ko0-eSbg==&utm_campaign=gpa" target="_blank" rel="noopener" class="btn btn-doordash" style="padding:0.5rem 1rem; font-size:0.8rem;" data-i18n="nav_order_cta">
                 Order Online
@@ -644,14 +642,14 @@
        ======================================================================== -->
   <div class="mobile-order-bar" aria-label="Mobile Quick Actions">
     <a href="tel:+14075073991" class="btn btn-gold" style="flex:1; padding:0.65rem 0.5rem; font-size:0.82rem;">
-      📞 <span data-i18n="mob_bar_call">Call Restaurant</span>
+      <span data-i18n="mob_bar_call">Call Restaurant</span>
     </a>
     <a href="https://www.doordash.com/store/yalla-habibi-kissimmee-kissimmee-39432155/91369146/?pickup=true&rwg_token=AE37R_itTbMKpbYK1_kYOFUnjckwQtKxqdJF6EoWpa2tRBMeok9BpPxOhDRFEuZLDOG2q1v1fxo66HFV6h13Ggjli9ko0-eSbg==&utm_campaign=gpa" target="_blank" rel="noopener" class="btn btn-doordash" style="flex:1.25; padding:0.65rem 0.5rem; font-size:0.82rem;">
-      🛵 <span data-i18n="mob_bar_order">Order DoorDash</span>
+      <span data-i18n="mob_bar_order">Order DoorDash</span>
     </a>
   </div>
 
   <!-- Main Interactive Script (Cache-Busted for Cloudflare) -->
-  <script src="assets/js/app.js?v=20261024-6"></script>
+  <script src="assets/js/app.js?v=20261024-7"></script>
 </body>
 </html>

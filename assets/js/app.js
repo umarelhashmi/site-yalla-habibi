@@ -32,22 +32,20 @@ const UI_TEXT = {
     mob_reviews: "Reviews",
     mob_visit: "Hours & Map",
 
-    hero_badge_1: "✨ Live Music & Cabaret Dinner Show",
-    hero_badge_2: "★ 33+ Five-Star Google Reviews",
-    hero_badge_3: "🇲🇦 Authentic Moroccan & Mediterranean Kitchen",
+    hero_kicker: "KISSIMMEE’S MOROCCAN SUPPER CLUB & DINNER SHOW · 3295 OXFORD DR",
     hero_title_html:
       'Authentic Moroccan <span class="gold-shimmer">Cuisine</span> &amp; Live <span class="ruby-glow">Dinner Show.</span>',
     hero_lead:
       "Welcome to Yalla Habibi at 3295 Oxford Dr in Kissimmee. Enjoy Chef Mouna’s slow-cooked Lamb Tagine, Lemon Chicken Tagine, flaky Chicken Pastilla, and grilled seafood alongside live music, stage entertainment, Moroccan mint tea, and late-night dining until 2:00 AM.",
     hero_cta_order: "Order Pickup / Delivery",
-    hero_cta_vip: "Call for Reservations · (407) 507-3991",
-    hero_cta_menu: "Browse Full Menu",
+    hero_cta_vip: "Reservations · (407) 507-3991",
+    hero_cta_menu: "Explore Full Menu",
     stat_1_val: "Chef Mouna",
     stat_1_lbl: "Traditional Moroccan Tagines, Pastilla, Couscous & Fresh Seafood",
     stat_2_val: "Open til 2 AM",
     stat_2_lbl: "Late-Night Kitchen, Hookah, Moroccan Mint Tea & Desserts",
-    stat_3_val: "Live Show",
-    stat_3_lbl: "Live Stage Music, Dancers & Group Celebrations Hosted by Sim",
+    stat_3_val: "5.0★ Rated",
+    stat_3_lbl: "33+ Five-Star Google Reviews · Live Stage Hosted by Sim",
 
     marquee_1: "YALLA HABIBI · RESTAURANT & DINNER SHOW",
     marquee_2: "AUTHENTIC MOROCCAN LAMB & LEMON CHICKEN TAGINES",
@@ -56,15 +54,15 @@ const UI_TEXT = {
     marquee_5: "MOROCCAN MINT TEA, HOOKAH & DESSERTS UNTIL 2 AM",
     marquee_6: "3295 OXFORD DR, KISSIMMEE · (407) 507-3991",
 
-    act1_step: "LUNCH & EARLY DINNER · FROM 1 PM / 5 PM",
+    act1_step: "ACT I · LUNCH & EARLY DINNER · FROM 1 PM / 5 PM",
     act1_title: "Authentic Moroccan Kitchen",
     act1_desc:
       "Start with warm pita, smoky Baba Ghanouj, Hummus, and Moroccan Zaalouk, followed by slow-simmered Lamb Tagine, Lemon Chicken Tagine, or crispy Chicken Pastilla.",
-    act2_step: "DINNER SHOW · NIGHTLY STAGE",
+    act2_step: "ACT II · DINNER SHOW · NIGHTLY STAGE",
     act2_title: "Live Music & Cabaret Show",
     act2_desc:
       "Our red-carpet stage comes alive with live Arabic vocalists, keyboard music, dancers, and interactive crowd energy—ideal for birthdays, couples, and group nights out.",
-    act3_step: "LATE NIGHT · OPEN UNTIL 2:00 AM",
+    act3_step: "ACT III · LATE NIGHT · OPEN UNTIL 2:00 AM",
     act3_title: "Midnight Lounge, Mint Tea & Hookah",
     act3_desc:
       "Unwind late into the night over pots of fresh Moroccan mint tea, Red Velvet or Pistachio cake, hookah, and hot plates fresh from the grill.",
@@ -86,30 +84,30 @@ const UI_TEXT = {
     bento_4_title: "Gold Moroccan Arches & Bar",
     bento_4_sub: "Cocktails, mocktails, Moroccan tea, and desserts.",
 
-    pillar_1_title: "👑 Hosted by Sim (Simo) & Shereen",
+    pillar_1_title: "I · Hosted by Sim (Simo) & Shereen",
     pillar_1_desc:
       "Guests consistently praise Sim and Shereen for warm, attentive hospitality from the moment you walk through the door.",
-    pillar_2_title: "🍲 Chef Mouna’s Moroccan Recipes",
+    pillar_2_title: "II · Chef Mouna’s Moroccan Kitchen",
     pillar_2_desc:
       "Real Moroccan cooking—fall-off-the-bone Lamb Tagine, Lemon Chicken Tagine, Chicken Pastilla, and fried Moroccan-style fish.",
-    pillar_3_title: "🎉 Birthdays & Nights Out",
+    pillar_3_title: "III · Birthdays & Group Nights Out",
     pillar_3_desc:
       "Live music, dancers, and themed nights create an interactive celebration atmosphere for birthdays and groups.",
-    pillar_4_title: "🫖 Open Late Until 2:00 AM",
+    pillar_4_title: "IV · Open Late Until 2:00 AM",
     pillar_4_desc:
       "One of Kissimmee’s favorite late-night spots for dinner, Moroccan mint tea, hookah, and house desserts.",
 
-    sig_eyebrow: "House Specialties · Click Any Dish for Details",
-    sig_title: "Signature Moroccan & Mediterranean Dishes",
+    sig_eyebrow: "House Specialties · Select Any Plate to Inspect",
+    sig_title: "Signature Moroccan & Mediterranean Plates",
     sig_desc:
       "Prepared fresh with saffron, preserved lemon, toasted almonds, olive oil, and traditional Moroccan spices.",
     sig_order_btn: "Order on DoorDash",
     sig_inspect_btn: "View Dish",
 
-    menu_eyebrow: "Complete Menu · DoorDash & In-House Dining",
+    menu_eyebrow: "Complete Menu Ledger · DoorDash & In-House Dining",
     menu_title: "Explore Our Full Menu",
     menu_desc:
-      "Filter by category or search in English or Arabic. Click any dish to inspect details or order online on DoorDash.",
+      "Filter by category or search in English or Arabic. Select any dish to inspect details or order online on DoorDash.",
     menu_search_placeholder:
       "Search dishes (e.g., Lamb Tagine, Pastilla, Shrimp, Zaalouk, Shawarma, Arayes)...",
     menu_order_all_btn: "Order Online on DoorDash",
@@ -142,15 +140,15 @@ const UI_TEXT = {
     loc_address_label: "Address:",
     loc_phone_label: "Phone & Reservations:",
     loc_hours_heading: "Weekly Hours (Eastern Time)",
-    amenity_1: "✓ Dine-In, Takeout & Curbside Pickup",
-    amenity_2: "✓ Live Music & Dinner Show",
-    amenity_3: "✓ Open Late Until 2:00 AM",
-    amenity_4: "✓ Free Parking Lot & Street Parking",
-    amenity_5: "✓ Wheelchair Accessible",
-    amenity_6: "✓ Reservations & Group Seating",
+    amenity_1: "Dine-In, Takeout & Curbside Pickup",
+    amenity_2: "Live Music & Dinner Show",
+    amenity_3: "Open Late Until 2:00 AM",
+    amenity_4: "Free Parking Lot & Street Parking",
+    amenity_5: "Wheelchair Accessible",
+    amenity_6: "Reservations & Group Seating",
     loc_directions_btn: "Get Directions",
     loc_call_btn: "Call (407) 507-3991",
-    map_footer_text: "📍 3295 Oxford Dr, Kissimmee, FL 34746 · Free Parking Lot",
+    map_footer_text: "3295 Oxford Dr, Kissimmee, FL 34746 · Free Parking Lot",
     map_footer_link: "Open in Google Maps →",
 
     hud_title: "Restaurant & Show Hours",
@@ -192,22 +190,20 @@ const UI_TEXT = {
     mob_reviews: "التقييمات",
     mob_visit: "الأوقات والموقع",
 
-    hero_badge_1: "✨ موسيقى حية وعروض سهرة يومية",
-    hero_badge_2: "★ أكثر من ٣٣ تقييم ٥ نجوم على جوجل",
-    hero_badge_3: "🇲🇦 مطبخ مغربي ومتوسطي أصيل",
+    hero_kicker: "نادي العشاء المغربي وعروض السهرة في كيسيمي · 3295 OXFORD DR",
     hero_title_html:
       'مذاق مغربي <span class="gold-shimmer">أصيل</span> وعروض سهرة <span class="ruby-glow">حية.</span>',
     hero_lead:
       "أهلاً بكم في مطعم يلا حبيبي في 3295 Oxford Dr بمدينة كيسيمي. استمتعوا بطاجن اللحم المغربي، وطاجن الدجاج بالليمون، وبسطيلة الدجاج المقرمشة، والمأكولات البحرية الطازجة من إبداع الشيف منى، مع الموسيقى الحية والشاي المغربي بالنعناع والسهر حتى الساعة ٢:٠٠ فجراً.",
     hero_cta_order: "اطلب للاستلام أو التوصيل",
-    hero_cta_vip: "اتصل للحجز · 3991-507 (407)",
+    hero_cta_vip: "للحجز · 3991-507 (407)",
     hero_cta_menu: "تصفح قائمة الطعام",
     stat_1_val: "الشيف منى",
     stat_1_lbl: "طواجن مغربية أصيلة، بسطيلة، كسكس ومأكولات بحرية طازجة",
     stat_2_val: "مفتوح حتى ٢ فجراً",
     stat_2_lbl: "عشاء متأخر، أتاي مغربي بالنعناع، أرجيلة وحلويات",
-    stat_3_val: "عروض حية",
-    stat_3_lbl: "غناء وموسيقى حية وأجواء احتفالية بإشراف المدير سيمو",
+    stat_3_val: "تقييم ٥.٠ نجوم",
+    stat_3_lbl: "أكثر من ٣٣ تقييم ٥ نجوم · سهرات حية بإشراف سيمو",
 
     marquee_1: "يلا حبيبي · مطعم وعروض سهرة في كيسيمي",
     marquee_2: "طاجن اللحم المغربي وطاجن الدجاج بالليمون",
@@ -216,15 +212,15 @@ const UI_TEXT = {
     marquee_5: "شاي مغربي بالنعناع، أرجيلة وحلويات حتى ٢ فجراً",
     marquee_6: "3295 OXFORD DR, KISSIMMEE · (407) 507-3991",
 
-    act1_step: "الغداء والعشاء المبكر · من ١ ظهراً / ٥ مساءً",
+    act1_step: "الفصل الأول · الغداء والعشاء المبكر · من ١ ظهراً / ٥ مساءً",
     act1_title: "المطبخ المغربي الأصيل",
     act1_desc:
       "ابدأوا مع الخبز الساخن وبابا غنوج والحمص والزعلوك المغربي، ثم استمتعوا بطاجن اللحم أو طاجن الدجاج بالليمون أو بسطيلة الدجاج المقرمشة.",
-    act2_step: "عروض السهرة · المسرح الليلي",
+    act2_step: "الفصل الثاني · عروض السهرة · المسرح الليلي",
     act2_title: "موسيقى حية وعروض استعراضية",
     act2_desc:
       "يتألق المسرح ليلاً مع الغناء الحي وعزف الأورغ والعروض الاستعراضية الحماسية — المكان الأمثل لأعياد الميلاد والسهرات مع الأصدقاء.",
-    act3_step: "سهرة آخر الليل · حتى ٢:٠٠ فجراً",
+    act3_step: "الفصل الثالث · سهرة آخر الليل · حتى ٢:٠٠ فجراً",
     act3_title: "أتاي مغربي بالنعناع، أرجيلة وعشاء متأخر",
     act3_desc:
       "استمتعوا بأجواء السهر الراقية مع إبريق الشاي المغربي بالنعناع، كيكة الريد فيلفيت أو الفستق، الأرجيلة، وأطباق المشاوي الساخنة.",
@@ -246,20 +242,20 @@ const UI_TEXT = {
     bento_4_title: "الأقواس المغربية الذهبية والبار",
     bento_4_sub: "مشروبات، كوكتيلات، شاي مغربي وحلويات.",
 
-    pillar_1_title: "👑 ترحيب سيمو (Sim) وشيرين",
+    pillar_1_title: "١ · ترحيب سيمو (Sim) وشيرين",
     pillar_1_desc:
       "يشيد الضيوف دائماً بحفاوة الاستقبال والخدمة الراقية من المدير سيمو وشيرين منذ لحظة الوصول.",
-    pillar_2_title: "🍲 إبداعات الشيف منى",
+    pillar_2_title: "٢ · إبداعات الشيف منى",
     pillar_2_desc:
       "أطباق مغربية أصيلة — طاجن اللحم الطري، طاجن الدجاج بالليمون، بسطيلة الدجاج، وطبق السمك المقلي على الطريقة المغربية.",
-    pillar_3_title: "🎉 احتفالات أعياد الميلاد والمجموعات",
+    pillar_3_title: "٣ · احتفالات أعياد الميلاد والمجموعات",
     pillar_3_desc:
       "موسيقى حية وعروض تفاعلية تصنع أجواءً احتفالية رائعة للأصدقاء والأزواج والعائلات.",
-    pillar_4_title: "🫖 مفتوح حتى ٢:٠٠ فجراً",
+    pillar_4_title: "٤ · مفتوح حتى ٢:٠٠ فجراً",
     pillar_4_desc:
       "الوجهة المفضلة للسهر في كيسيمي لتناول العشاء المتأخر والشاي المغربي بالنعناع والأرجيلة.",
 
-    sig_eyebrow: "أشهر أطباق المطعم · اضغط على أي طبق للتفاصيل",
+    sig_eyebrow: "أشهر أطباق المطعم · اختر أي طبق للتفاصيل",
     sig_title: "الأطباق المغربية والمتوسطية المميزة",
     sig_desc:
       "تُحضر طازجة بالزعفران والليمون المغربي المصير واللوز المحمص وزيت الزيتون والتوابل المغربية الأصيلة.",
@@ -302,15 +298,15 @@ const UI_TEXT = {
     loc_address_label: "العنوان:",
     loc_phone_label: "الهاتف والحجوزات:",
     loc_hours_heading: "أوقات العمل الأسبوعية (بتوقيت شرق أمريكا)",
-    amenity_1: "✓ جلسات داخلية وخارجية وطلبات خارجية",
-    amenity_2: "✓ موسيقى حية وعروض سهرة",
-    amenity_3: "✓ مفتوح حتى ٢:٠٠ فجراً",
-    amenity_4: "✓ مواقف سيارات مجانية واسعة",
-    amenity_5: "✓ مهيأ لذوي الاحتياجات الخاصة",
-    amenity_6: "✓ حجوزات وطاولات للمجموعات",
+    amenity_1: "جلسات داخلية وطلبات خارجية",
+    amenity_2: "موسيقى حية وعروض سهرة",
+    amenity_3: "مفتوح حتى ٢:٠٠ فجراً",
+    amenity_4: "مواقف سيارات مجانية واسعة",
+    amenity_5: "مهيأ لذوي الاحتياجات الخاصة",
+    amenity_6: "حجوزات وطاولات للمجموعات",
     loc_directions_btn: "احصل على الاتجاهات",
     loc_call_btn: "اتصل: 3991-507 (407)",
-    map_footer_text: "📍 3295 Oxford Dr, Kissimmee, FL 34746 · مواقف مجانية متوفرة",
+    map_footer_text: "3295 Oxford Dr, Kissimmee, FL 34746 · مواقف مجانية متوفرة",
     map_footer_link: "افتح في خرائط جوجل ←",
 
     hud_title: "أوقات عمل المطعم والعروض",
@@ -340,6 +336,7 @@ const UI_TEXT = {
 const HERO_DISHES = [
   {
     id: "lamb-tagine",
+    num: "01",
     enTitle: "Moroccan Lamb Tagine",
     arTitle: "طاجن اللحم المغربي بالبرقوق واللوز",
     enSub: "Slow-Braised Lamb · Prunes, Apricots, Toasted Almonds & Pistachios",
@@ -347,8 +344,8 @@ const HERO_DISHES = [
     price: "$23.99",
     cutoutImg: "assets/images/ai/cutout-lamb-tagine.png",
     realImg: "assets/images/gmaps/by_owner_3.jpg",
-    enBadge: "👑 Chef Mouna’s #1 Specialty",
-    arBadge: "👑 الطبق الأول للشيف منى",
+    enBadge: "PLATE NO. 01 · CHEF MOUNA’S SPECIALTY",
+    arBadge: "الطبق رقم ٠١ · تخصص الشيف منى",
     enDesc:
       "Chef Mouna’s signature slow-braised fall-off-the-bone lamb tagine simmered with saffron, caramelized prunes, apricots, toasted almonds, and pistachios.",
     arDesc:
@@ -356,6 +353,7 @@ const HERO_DISHES = [
   },
   {
     id: "lamb-chops",
+    num: "02",
     enTitle: "Grilled Lamb Chops Plate",
     arTitle: "طبق ريش الغنم المشوية",
     enSub: "3 Tender Moroccan-Spiced Lamb Chops · Saffron Rice & Grilled Vegetables",
@@ -363,8 +361,8 @@ const HERO_DISHES = [
     price: "$24.99",
     cutoutImg: "assets/images/ai/cutout-lamb-chops.png",
     realImg: "assets/images/doordash/lamb-chops.jpg",
-    enBadge: "🔥 91% Liked on DoorDash",
-    arBadge: "🔥 ٩١٪ إعجاب على دورداش",
+    enBadge: "PLATE NO. 02 · 91% LIKED ON DOORDASH",
+    arBadge: "الطبق رقم ٠٢ · ٩١٪ إعجاب على دورداش",
     enDesc:
       "3 pieces of grilled tender lollipop lamb chops with Moroccan spice rub and fresh rosemary, served with grilled vegetables and saffron rice.",
     arDesc:
@@ -372,6 +370,7 @@ const HERO_DISHES = [
   },
   {
     id: "chicken-shawarma-plate",
+    num: "03",
     enTitle: "Chicken Shawarma Plate",
     arTitle: "طبق شاورما الدجاج",
     enSub: "Slow-Roasted Shawarma · Crispy Pita, Seasoned Potatoes, Garlic Sauce & Almonds",
@@ -379,8 +378,8 @@ const HERO_DISHES = [
     price: "$19.99",
     cutoutImg: "assets/images/ai/cutout-shawarma-plate.png",
     realImg: "assets/images/doordash/chicken-shawarma-plate.jpg",
-    enBadge: "⭐ #1 Most Ordered on DoorDash",
-    arBadge: "⭐ الأكثر طلباً على دورداش",
+    enBadge: "PLATE NO. 03 · #1 MOST ORDERED PLATE",
+    arBadge: "الطبق رقم ٠٣ · الأكثر طلباً على دورداش",
     enDesc:
       "Chicken shawarma mixed with crispy bread, seasoned potatoes, and pickles, drizzled with house garlic sauce and accompanied by fried almonds.",
     arDesc:
@@ -388,6 +387,7 @@ const HERO_DISHES = [
   },
   {
     id: "royal-gold-sea",
+    num: "04",
     enTitle: "Royal Gold Sea Platter",
     arTitle: "طبق رويال جولد سي البحري",
     enSub: "Crispy Calamari, Jumbo Shrimp & Flaky White Fish on Golden Platter",
@@ -395,8 +395,8 @@ const HERO_DISHES = [
     price: "$29.99",
     cutoutImg: "assets/images/ai/cutout-royal-seafood.png",
     realImg: "assets/images/gmaps/by_owner_14.jpg",
-    enBadge: "🦞 Dinner Show Feast",
-    arBadge: "🦞 وليمة بحرية فاخرة",
+    enBadge: "PLATE NO. 04 · DINNER SHOW SEAFOOD FEAST",
+    arBadge: "الطبق رقم ٠٤ · وليمة المأكولات البحرية",
     enDesc:
       "Lavish Moroccan seafood feast featuring crispy calamari rings, jumbo shrimp, and golden fish fillets served with herb-crusted lemons and house dipping sauces.",
     arDesc:
@@ -404,6 +404,7 @@ const HERO_DISHES = [
   },
   {
     id: "chicken-pastilla",
+    num: "05",
     enTitle: "Moroccan Chicken Pastilla",
     arTitle: "بسطيلة الدجاج المغربية باللوز",
     enSub: "Crisp Warqa Pastry · Saffron Chicken, Caramelized Almonds, Cinnamon & Sugar",
@@ -411,8 +412,8 @@ const HERO_DISHES = [
     price: "$16.99",
     cutoutImg: "assets/images/ai/cutout-chicken-pastilla.png",
     realImg: "assets/images/gmaps/by_owner_12.jpg",
-    enBadge: "✨ Authentic Fassi Classic",
-    arBadge: "✨ كلاسيكي فاسي أصيل",
+    enBadge: "PLATE NO. 05 · TRADITIONAL FASSI PASTILLA",
+    arBadge: "الطبق رقم ٠٥ · بسطيلة فاسية أصيلة",
     enDesc:
       "Crisp layered Moroccan pastry filled with saffron-braised chicken and caramelized almonds, finished with powdered sugar, cinnamon, and pistachios.",
     arDesc:
@@ -420,6 +421,7 @@ const HERO_DISHES = [
   },
   {
     id: "arayes-plate",
+    num: "06",
     enTitle: "Char-Grilled Arayes Plate",
     arTitle: "طبق عرايس اللحم المشوية",
     enSub: "6 Crispy Pita Pockets Stuffed with Spiced Beef & Lamb · Fries & Tahini",
@@ -427,8 +429,8 @@ const HERO_DISHES = [
     price: "$17.99",
     cutoutImg: "assets/images/ai/cutout-arayes-plate.png",
     realImg: "assets/images/doordash/arayes-plate.jpg",
-    enBadge: "🔥 100% Liked on DoorDash",
-    arBadge: "🔥 ١٠٠٪ إعجاب على دورداش",
+    enBadge: "PLATE NO. 06 · 100% LIKED ON DOORDASH",
+    arBadge: "الطبق رقم ٠٦ · ١٠٠٪ إعجاب على دورداش",
     enDesc:
       "6 crispy grilled pita bread pockets generously stuffed with a savory, spiced mixture of ground beef and lamb, served with tahini sauce and golden fries.",
     arDesc:
@@ -436,7 +438,7 @@ const HERO_DISHES = [
   }
 ];
 
-/* 3. Signature Dishes (Moorish Arch Cards — 6 Items) */
+/* 3. Signature Dishes (Architectural Filigree Ledger Cards — 6 Items) */
 const SIGNATURE_DISHES = [
   {
     id: "lamb-tagine",
@@ -447,11 +449,8 @@ const SIGNATURE_DISHES = [
     price: "$23.99",
     cutoutImg: "assets/images/ai/cutout-lamb-tagine.png",
     realImg: "assets/images/gmaps/by_owner_3.jpg",
-    enBadge1: "👑 #1 Most Mentioned",
-    arBadge1: "👑 الطبق الأشهر",
-    enBadge2: "Chef Mouna’s Classic",
-    arBadge2: "توقيع الشيف منى",
-    badge2Class: "crimson",
+    enBadge1: "No. 01 · Chef Mouna’s Specialty",
+    arBadge1: "رقم ٠١ · توقيع الشيف منى",
     enDesc:
       "Chef Mouna’s signature slow-braised fall-off-the-bone lamb tagine simmered with saffron, caramelized prunes, apricots, toasted almonds, and pistachios.",
     arDesc:
@@ -470,11 +469,8 @@ const SIGNATURE_DISHES = [
     price: "$16.99",
     cutoutImg: "assets/images/ai/cutout-chicken-pastilla.png",
     realImg: "assets/images/gmaps/by_owner_12.jpg",
-    enBadge1: "✨ Traditional Pastilla",
-    arBadge1: "✨ البسطيلة المغربية",
-    enBadge2: "Sweet & Savory",
-    arBadge2: "المالح والحلو",
-    badge2Class: "emerald",
+    enBadge1: "No. 02 · Sweet & Savory Fassi Pastry",
+    arBadge1: "رقم ٠٢ · البسطيلة المغربية الأصيلة",
     enDesc:
       "Crisp golden layers of Moroccan pastry filled with saffron-braised chicken and caramelized almonds, finished with powdered sugar, cinnamon, and pistachios.",
     arDesc:
@@ -493,11 +489,8 @@ const SIGNATURE_DISHES = [
     price: "$24.99",
     cutoutImg: "assets/images/ai/cutout-lamb-chops.png",
     realImg: "assets/images/doordash/lamb-chops.jpg",
-    enBadge1: "🔥 91% Liked (12)",
-    arBadge1: "🔥 ٩١٪ إعجاب",
-    enBadge2: "DoorDash Favorite",
-    arBadge2: "مفضل دورداش",
-    badge2Class: "crimson",
+    enBadge1: "No. 03 · 91% Liked on DoorDash",
+    arBadge1: "رقم ٠٣ · ٩١٪ إعجاب على دورداش",
     enDesc:
       "3 pieces of grilled tender lollipop lamb chops with Moroccan spice rub and fresh rosemary, served with grilled green beans, cherry tomatoes, and saffron rice.",
     arDesc:
@@ -516,11 +509,8 @@ const SIGNATURE_DISHES = [
     price: "$29.99",
     cutoutImg: "assets/images/ai/cutout-royal-seafood.png",
     realImg: "assets/images/gmaps/by_owner_14.jpg",
-    enBadge1: "🦞 Seafood Feast",
-    arBadge1: "🦞 وليمة بحرية",
-    enBadge2: "Fried or Grilled",
-    arBadge2: "مقلي أو مشوي",
-    badge2Class: "emerald",
+    enBadge1: "No. 04 · Royal Seafood Platter",
+    arBadge1: "رقم ٠٤ · وليمة المأكولات البحرية",
     enDesc:
       "Lavish Moroccan seafood platter with crispy calamari, jumbo shrimp, and golden fish fillets served with herb-crusted lemons and house sauces.",
     arDesc:
@@ -539,11 +529,8 @@ const SIGNATURE_DISHES = [
     price: "$19.99",
     cutoutImg: "assets/images/ai/cutout-shawarma-plate.png",
     realImg: "assets/images/doordash/chicken-shawarma-plate.jpg",
-    enBadge1: "⭐ #1 Most Liked (16)",
-    arBadge1: "⭐ الأكثر طلباً (١٦)",
-    enBadge2: "House Garlic Sauce",
-    arBadge2: "مع صلصة الثوم",
-    badge2Class: "crimson",
+    enBadge1: "No. 05 · #1 Most Ordered Plate",
+    arBadge1: "رقم ٠٥ · الأكثر طلباً على دورداش",
     enDesc:
       "Chicken shawarma mixed with crispy bread, seasoned potatoes, and pickles, drizzled with house garlic sauce and accompanied by fried almonds.",
     arDesc:
@@ -562,11 +549,8 @@ const SIGNATURE_DISHES = [
     price: "$17.99",
     cutoutImg: "assets/images/ai/cutout-arayes-plate.png",
     realImg: "assets/images/doordash/arayes-plate.jpg",
-    enBadge1: "🔥 100% Liked (5)",
-    arBadge1: "🔥 ١٠٠٪ إعجاب (٥)",
-    enBadge2: "Served w/ Fries",
-    arBadge2: "مع البطاطس والطحينة",
-    badge2Class: "emerald",
+    enBadge1: "No. 06 · 100% Liked on DoorDash",
+    arBadge1: "رقم ٠٦ · ١٠٠٪ إعجاب على دورداش",
     enDesc:
       "6 crispy grilled pita bread pockets generously stuffed with a savory, spiced mixture of ground beef and lamb, served hot with tahini sauce and golden fries.",
     arDesc:
@@ -581,7 +565,7 @@ const SIGNATURE_DISHES = [
 /* 4. Complete 33-Item Menu (All 25 DoorDash Items + 8 In-House Moroccan Menu Specialties) */
 const MENU_CATEGORIES = [
   { id: "all", enLabel: "All Dishes", arLabel: "جميع الأطباق" },
-  { id: "moroccan", enLabel: "Moroccan Tagines & Dinner Show", arLabel: "الطواجن والأطباق المغربية" },
+  { id: "moroccan", enLabel: "Moroccan Tagines & Specialties", arLabel: "الطواجن والأطباق المغربية" },
   { id: "plates", enLabel: "Char-Grilled Plates", arLabel: "الأطباق الرئيسية والمشاوي" },
   { id: "sandwiches", enLabel: "Sandwiches & Wraps", arLabel: "الساندويشات" },
   { id: "appetizers", enLabel: "Appetizers & Wings", arLabel: "المقبلات والأجنحة" },
@@ -598,8 +582,8 @@ const MENU_ITEMS = [
     arTitle: "طاجن اللحم المغربي بالبرقوق واللوز",
     price: "$23.99",
     img: "assets/images/gmaps/by_owner_3.jpg",
-    enBadge: "👑 Mentioned in 4+ Reviews",
-    arBadge: "👑 الطبق المغربي الأشهر",
+    enBadge: "House Specialty · 4+ Guest Reviews",
+    arBadge: "الطبق المغربي الأشهر",
     enDesc:
       "Chef Mouna’s signature slow-braised fall-off-the-bone lamb tagine simmered with saffron, caramelized prunes, apricots, toasted almonds, and pistachios.",
     arDesc:
@@ -612,8 +596,8 @@ const MENU_ITEMS = [
     arTitle: "طاجن الدجاج بالليمون المصير والزيتون",
     price: "$17.99",
     img: "assets/images/ai/lemon-chicken-tagine.jpg",
-    enBadge: "🍋 Chef Mouna’s Classic",
-    arBadge: "🍋 كلاسيكي الشيف منى",
+    enBadge: "Chef Mouna’s Classic",
+    arBadge: "كلاسيكي الشيف منى",
     enDesc:
       "Traditional Moroccan chicken braised in an earthenware tagine with preserved Meyer lemons, green & purple olives, saffron, ginger, and fresh herbs.",
     arDesc:
@@ -626,8 +610,8 @@ const MENU_ITEMS = [
     arTitle: "طبق رويال جولد سي البحري",
     price: "$29.99",
     img: "assets/images/gmaps/by_owner_14.jpg",
-    enBadge: "🦞 Signature Seafood Feast",
-    arBadge: "🦞 وليمة المأكولات البحرية",
+    enBadge: "Signature Seafood Feast",
+    arBadge: "وليمة المأكولات البحرية",
     enDesc:
       "Lavish Moroccan seafood feast featuring crispy calamari rings, jumbo shrimp, and golden fish fillets served with herb-crusted lemons and house dipping sauces.",
     arDesc:
@@ -640,8 +624,8 @@ const MENU_ITEMS = [
     arTitle: "بسطيلة الدجاج المغربية باللوز والزعفران",
     price: "$16.99",
     img: "assets/images/gmaps/by_owner_12.jpg",
-    enBadge: "✨ Sweet & Savory Tapas",
-    arBadge: "✨ بسطيلة مغربية أصيلة",
+    enBadge: "Sweet & Savory Fassi Pastry",
+    arBadge: "بسطيلة مغربية أصيلة",
     enDesc:
       "Crisp layered Moroccan pastry filled with saffron-braised chicken and caramelized almonds, finished with powdered sugar, cinnamon, and pistachios.",
     arDesc:
@@ -654,8 +638,8 @@ const MENU_ITEMS = [
     arTitle: "سيجار / بسطيلة المأكولات البحرية",
     price: "$16.99",
     img: "assets/images/gmaps/by_owner_2.jpg",
-    enBadge: "🦐 House Specialty",
-    arBadge: "🦐 لفائف بحرية مقرمشة",
+    enBadge: "Crispy Warqa & Seafood",
+    arBadge: "لفائف بحرية مقرمشة",
     enDesc:
       "Golden crisp pastry filled with shrimp, mahi-mahi, clam, calamari, vermicelli rice noodles, mushrooms, and Moroccan olives, crowned with a grilled jumbo prawn.",
     arDesc:
@@ -668,8 +652,8 @@ const MENU_ITEMS = [
     arTitle: "روبيان بيل بيل / روبيان حبيبي المشوي",
     price: "$16.99",
     img: "assets/images/gmaps/gmaps_gallery_4.jpg",
-    enBadge: "🌶️ Sizzling Tapas",
-    arBadge: "🌶️ بالثوم والكزبرة الطازجة",
+    enBadge: "Sizzling Garlic & Herb Tapas",
+    arBadge: "بالثوم والكزبرة الطازجة",
     enDesc:
       "Sizzling jumbo shrimp with garlic, olive oil, chili flakes, fresh rosemary, parsley, and vibrant house cilantro-garlic sauce.",
     arDesc:
@@ -682,8 +666,8 @@ const MENU_ITEMS = [
     arTitle: "شوربة المأكولات البحرية الملكية",
     price: "$21.99",
     img: "assets/images/gmaps/stefani_chalkova_review_1.jpg",
-    enBadge: "🍲 Dinner Show Starter",
-    arBadge: "🍲 شوربة بحرية كريمية",
+    enBadge: "Dinner Show Starter",
+    arBadge: "شوربة بحرية كريمية",
     enDesc:
       "Rich, velvety Moroccan seafood chowder brimming with plump mussels, tender shrimp, flaky white fish, and calamari.",
     arDesc:
@@ -696,8 +680,8 @@ const MENU_ITEMS = [
     arTitle: "أتاي شاي مغربي أصيل بالنعناع",
     price: "$6.99",
     img: "assets/images/gmaps/khalid_jebbar_review_1.jpg",
-    enBadge: "🫖 Late-Night Ritual",
-    arBadge: "🫖 الضيافة المغربية الأصيلة",
+    enBadge: "Fresh Spearmint Service",
+    arBadge: "الضيافة المغربية الأصيلة",
     enDesc:
       "Authentic gunpowder green tea steeped with fresh spearmint leaves and poured high into ornate gold-filigree glasses.",
     arDesc:
@@ -712,8 +696,8 @@ const MENU_ITEMS = [
     arTitle: "طبق شاورما الدجاج",
     price: "$19.99",
     img: "assets/images/doordash/chicken-shawarma-plate.jpg",
-    enBadge: "⭐ 87% Liked (16) · #1 Most Ordered",
-    arBadge: "⭐ الأكثر طلباً على دورداش",
+    enBadge: "87% Liked (16) · #1 Most Ordered",
+    arBadge: "الأكثر طلباً على دورداش",
     enDesc:
       "Chicken shawarma mixed with crispy bread, seasoned potatoes, and pickles, drizzled with house garlic sauce and accompanied by fried almonds.",
     arDesc:
@@ -726,8 +710,8 @@ const MENU_ITEMS = [
     arTitle: "طبق كباب الدجاج المشوي",
     price: "$22.99",
     img: "assets/images/doordash/chicken-kebab.jpg",
-    enBadge: "🔥 100% Liked (10) · #2 Most Liked",
-    arBadge: "🔥 ١٠٠٪ إعجاب (١٠)",
+    enBadge: "100% Liked (10) · #2 Most Liked",
+    arBadge: "١٠٠٪ إعجاب (١٠)",
     enDesc:
       "Chicken breast blended with Moroccan seasonings and char-grilled, served with grilled vegetables (green beans & cherry tomatoes) and saffron rice.",
     arDesc:
@@ -740,8 +724,8 @@ const MENU_ITEMS = [
     arTitle: "طبق شيش كباب اللحم المشوي",
     price: "$24.99",
     img: "assets/images/doordash/shish-lamb-kebab.jpg",
-    enBadge: "🔥 92% Liked (13) · #3 Most Liked",
-    arBadge: "🔥 ٩٢٪ إعجاب (١٣)",
+    enBadge: "92% Liked (13) · #3 Most Liked",
+    arBadge: "٩٢٪ إعجاب (١٣)",
     enDesc:
       "Tender lamb cubes seasoned with warm herbs and char-grilled over open flame, served with grilled vegetables and saffron rice.",
     arDesc:
@@ -754,8 +738,8 @@ const MENU_ITEMS = [
     arTitle: "طبق ريش الغنم المشوية",
     price: "$24.99",
     img: "assets/images/doordash/lamb-chops.jpg",
-    enBadge: "🔥 91% Liked (12)",
-    arBadge: "🔥 ٩١٪ إعجاب (١٢)",
+    enBadge: "91% Liked (12)",
+    arBadge: "٩١٪ إعجاب (١٢)",
     enDesc:
       "3 pieces of grilled tender lollipop lamb chops with Moroccan spice rub and fresh rosemary, served with grilled vegetables and rice.",
     arDesc:
@@ -768,8 +752,8 @@ const MENU_ITEMS = [
     arTitle: "طبق كباب كفتة اللحم",
     price: "$24.99",
     img: "assets/images/doordash/kefta-kebab.jpg",
-    enBadge: "🔥 88% Liked (9)",
-    arBadge: "🔥 ٨٨٪ إعجاب (٩)",
+    enBadge: "88% Liked (9)",
+    arBadge: "٨٨٪ إعجاب (٩)",
     enDesc:
       "Ground beef seasoned with fresh parsley, onions, and Moroccan spices, skewered and char-grilled. Served with grilled vegetables and saffron rice.",
     arDesc:
@@ -782,8 +766,8 @@ const MENU_ITEMS = [
     arTitle: "طبق عرايس اللحم المشوية",
     price: "$17.99",
     img: "assets/images/doordash/arayes-plate.jpg",
-    enBadge: "🔥 100% Liked (5)",
-    arBadge: "🔥 ١٠٠٪ إعجاب (٥)",
+    enBadge: "100% Liked (5)",
+    arBadge: "١٠٠٪ إعجاب (٥)",
     enDesc:
       "6 crispy grilled pita bread pockets generously stuffed with a savory, spiced mixture of ground beef and lamb, served with tahini sauce and golden fries.",
     arDesc:
@@ -798,8 +782,8 @@ const MENU_ITEMS = [
     arTitle: "ساندويش شاورما الدجاج",
     price: "$11.99",
     img: "assets/images/doordash/chicken-shawarma-sandwich.jpg",
-    enBadge: "🌯 90% Liked (11)",
-    arBadge: "🌯 ٩٠٪ إعجاب (١١)",
+    enBadge: "90% Liked (11)",
+    arBadge: "٩٠٪ إعجاب (١١)",
     enDesc:
       "Tender marinated chicken, slow-cooked and thinly sliced, wrapped in warm pita bread with fresh toppings and creamy garlic sauce.",
     arDesc:
@@ -812,8 +796,8 @@ const MENU_ITEMS = [
     arTitle: "ساندويش جيرو اللحم",
     price: "$12.99",
     img: "assets/images/doordash/gyro-sandwich.jpg",
-    enBadge: "🌯 100% Liked (6)",
-    arBadge: "🌯 ١٠٠٪ إعجاب (٦)",
+    enBadge: "100% Liked (6)",
+    arBadge: "١٠٠٪ إعجاب (٦)",
     enDesc:
       "Thinly sliced seasoned lamb wrapped in warm pita bread with fresh toppings and house sauce.",
     arDesc:
@@ -826,8 +810,8 @@ const MENU_ITEMS = [
     arTitle: "ساندويش كباب الدجاج",
     price: "$16.99",
     img: "assets/images/doordash/chicken-kebab-sandwich.jpg",
-    enBadge: "🥖 100% Liked (6)",
-    arBadge: "🥖 ١٠٠٪ إعجاب (٦)",
+    enBadge: "100% Liked (6)",
+    arBadge: "١٠٠٪ إعجاب (٦)",
     enDesc:
       "Tender marinated chicken kebab wrapped in warm bread with fresh toppings and finished with creamy garlic sauce.",
     arDesc:
@@ -840,8 +824,8 @@ const MENU_ITEMS = [
     arTitle: "ساندويش كباب الكفتة",
     price: "$16.99",
     img: "assets/images/doordash/kefta-sandwich.jpg",
-    enBadge: "🥖 85% Liked (7)",
-    arBadge: "🥖 ٨٥٪ إعجاب (٧)",
+    enBadge: "85% Liked (7)",
+    arBadge: "٨٥٪ إعجاب (٧)",
     enDesc:
       "Char-grilled spiced ground beef with parsley and onions in warm French bread, topped with tzatziki sauce, lettuce, onions, and tomatoes.",
     arDesc:
@@ -854,8 +838,8 @@ const MENU_ITEMS = [
     arTitle: "ساندويش الفلافل المقرمشة",
     price: "$11.99",
     img: "assets/images/doordash/falafel-sandwich.jpg",
-    enBadge: "🌱 Vegetarian Favorite",
-    arBadge: "🌱 خيار نباتي شهي",
+    enBadge: "Vegetarian Favorite",
+    arBadge: "خيار نباتي شهي",
     enDesc:
       "Crispy herb-seasoned chickpea falafel patties wrapped in warm pita bread with fresh lettuce, tomatoes, onions, and creamy tahini.",
     arDesc:
@@ -868,8 +852,8 @@ const MENU_ITEMS = [
     arTitle: "ساندويش شيش كباب اللحم",
     price: "$16.99",
     img: "assets/images/doordash/shish-kebab-sandwich.jpg",
-    enBadge: "🔥 Char-Grilled Lamb",
-    arBadge: "🔥 لحم غنم مشوي",
+    enBadge: "Char-Grilled Lamb",
+    arBadge: "لحم غنم مشوي",
     enDesc:
       "Herb-spiced char-grilled lamb on 8\" French bread with cooling tzatziki sauce, crisp lettuce, onions, and tomatoes.",
     arDesc:
@@ -884,8 +868,8 @@ const MENU_ITEMS = [
     arTitle: "حمص بالطحينة وزيت الزيتون",
     price: "$7.99",
     img: "assets/images/doordash/hummus.jpg",
-    enBadge: "🌱 Served w/ Warm Pita",
-    arBadge: "🌱 يُقدم مع الخبز الدافئ",
+    enBadge: "Served w/ Warm Pita",
+    arBadge: "يُقدم مع الخبز الدافئ",
     enDesc:
       "Velvety chickpea dip blended with tahini, extra-virgin olive oil, and warm Moroccan spices, served with warm pita bread.",
     arDesc:
@@ -898,8 +882,8 @@ const MENU_ITEMS = [
     arTitle: "فلافل مقرمشة (٦ قطع)",
     price: "$9.99",
     img: "assets/images/doordash/falafel.jpg",
-    enBadge: "🌱 100% Liked",
-    arBadge: "🌱 ١٠٠٪ إعجاب",
+    enBadge: "100% Liked · Vegetarian",
+    arBadge: "١٠٠٪ إعجاب · نباتي",
     enDesc:
       "6 savory chickpea patties seasoned with fresh herbs and warm spices, fried crisp and served with creamy tahini sauce.",
     arDesc:
@@ -912,8 +896,8 @@ const MENU_ITEMS = [
     arTitle: "أصابع الموزاريلا المقلية (٨ قطع)",
     price: "$11.99",
     img: "assets/images/doordash/mozzarella-sticks.jpg",
-    enBadge: "🧀 100% Liked (5)",
-    arBadge: "🧀 ١٠٠٪ إعجاب (٥)",
+    enBadge: "100% Liked (5)",
+    arBadge: "١٠٠٪ إعجاب (٥)",
     enDesc:
       "8 deep-fried golden breaded mozzarella sticks served with homemade zesty marinara sauce on the side.",
     arDesc:
@@ -926,8 +910,8 @@ const MENU_ITEMS = [
     arTitle: "أجنحة دجاج مقرمشة (٨ قطع)",
     price: "$13.99",
     img: "assets/images/doordash/chicken-wings.jpg",
-    enBadge: "🍗 85% Liked (7)",
-    arBadge: "🍗 ٨٥٪ إعجاب (٧)",
+    enBadge: "85% Liked (7)",
+    arBadge: "٨٥٪ إعجاب (٧)",
     enDesc:
       "8 bone-in fresh wings with your choice of Hot, Honey BBQ, Buffalo, Garlic, or Plain with Ranch or Blue Cheese.",
     arDesc:
@@ -942,8 +926,8 @@ const MENU_ITEMS = [
     arTitle: "بطاطس ستيك مقرمشة",
     price: "$3.99",
     img: "assets/images/doordash/steak-fries.jpg",
-    enBadge: "🍟 85% Liked (7)",
-    arBadge: "🍟 ٨٥٪ إعجاب (٧)",
+    enBadge: "85% Liked (7)",
+    arBadge: "٨٥٪ إعجاب (٧)",
     enDesc: "Thick-cut golden potato wedges lightly seasoned with sea salt.",
     arDesc: "ودجز البطاطس الذهبية السميكة المتبلة بملح البحر."
   },
@@ -954,8 +938,8 @@ const MENU_ITEMS = [
     arTitle: "أرز أصفر مغربي بالزعفران",
     price: "$5.99",
     img: "assets/images/doordash/rice.jpg",
-    enBadge: "🌾 100% Liked (4)",
-    arBadge: "🌾 ١٠٠٪ إعجاب (٤)",
+    enBadge: "100% Liked (4)",
+    arBadge: "١٠٠٪ إعجاب (٤)",
     enDesc: "Fragrant saffron-seasoned Moroccan yellow rice prepared to perfection.",
     arDesc: "أرز مغربي أصفر عطري متبل بالزعفران."
   },
@@ -966,8 +950,8 @@ const MENU_ITEMS = [
     arTitle: "بطاطس مقلية كلاسيكية",
     price: "$3.99",
     img: "assets/images/doordash/fries.jpg",
-    enBadge: "🍟 Classic Side",
-    arBadge: "🍟 مقرمشة وساخنة",
+    enBadge: "Classic Side",
+    arBadge: "مقرمشة وساخنة",
     enDesc: "Golden, crispy French fry potato sticks.",
     arDesc: "أصابع البطاطس المقلية الذهبية المقرمشة."
   },
@@ -980,8 +964,8 @@ const MENU_ITEMS = [
     arTitle: "عصير مانجو مادنس الاستوائي",
     price: "$4.49",
     img: "assets/images/doordash/mango-madness-juice.jpg",
-    enBadge: "🥭 100% Liked",
-    arBadge: "🥭 بارد ومنعش",
+    enBadge: "100% Liked · Chilled",
+    arBadge: "بارد ومنعش",
     enDesc: "Refreshing tropical Mango Madness fruit juice.",
     arDesc: "عصير فواكه المانجو الاستوائي البارد والمنعش."
   },
@@ -992,8 +976,8 @@ const MENU_ITEMS = [
     arTitle: "عصير تفاح طبيعي بارد",
     price: "$4.49",
     img: "assets/images/doordash/apple-juice.jpg",
-    enBadge: "🍎 Chilled",
-    arBadge: "🍎 عصير تفاح",
+    enBadge: "100% Apple Juice",
+    arBadge: "عصير تفاح",
     enDesc: "Crisp, chilled 100% apple juice.",
     arDesc: "عصير تفاح نقي وبارد ١٠٠٪."
   },
@@ -1004,8 +988,8 @@ const MENU_ITEMS = [
     arTitle: "كوكاكولا",
     price: "$2.49",
     img: "assets/images/doordash/coca-cola.jpg",
-    enBadge: "🥤 100% Liked",
-    arBadge: "🥤 بارد",
+    enBadge: "100% Liked",
+    arBadge: "بارد",
     enDesc: "Classic ice-cold Coca-Cola.",
     arDesc: "مشروب كوكاكولا الكلاسيكي المثلج."
   },
@@ -1016,8 +1000,8 @@ const MENU_ITEMS = [
     arTitle: "كوكاكولا زيرو",
     price: "$2.49",
     img: "assets/images/doordash/coca-cola-zero.jpg",
-    enBadge: "🥤 Zero Sugar",
-    arBadge: "🥤 بدون سكر",
+    enBadge: "Zero Sugar",
+    arBadge: "بدون سكر",
     enDesc: "Zero-sugar Coca-Cola with classic taste.",
     arDesc: "كوكاكولا زيرو بدون سكر."
   },
@@ -1028,8 +1012,8 @@ const MENU_ITEMS = [
     arTitle: "سبرايت",
     price: "$2.49",
     img: "assets/images/doordash/sprite.jpg",
-    enBadge: "🥤 90% Liked (10)",
-    arBadge: "🥤 بارد ومنعش",
+    enBadge: "90% Liked (10)",
+    arBadge: "بارد ومنعش",
     enDesc: "Crisp lemon-lime soda.",
     arDesc: "مشروب سبرايت بنكهة الليمون المنعشة."
   },
@@ -1040,8 +1024,8 @@ const MENU_ITEMS = [
     arTitle: "مياه معدنية معبأة",
     price: "$1.99",
     img: "assets/images/doordash/water.jpg",
-    enBadge: "💧 100% Liked (5)",
-    arBadge: "💧 مياه نقية",
+    enBadge: "100% Liked (5)",
+    arBadge: "مياه نقية",
     enDesc: "Pure bottled spring water.",
     arDesc: "مياه ينابيع نقية معبأة."
   }
@@ -1050,10 +1034,10 @@ const MENU_ITEMS = [
 /* 5. Real Verbatim Google Reviews & Topic Filters (100% Bilingual EN & AR) */
 const REVIEW_TOPICS = [
   { id: "all", enLabel: "All 5★ Reviews (9)", arLabel: "جميع تقييمات ★٥ (٩)" },
-  { id: "tagine", enLabel: "🍲 Tagines & Chef Mouna", arLabel: "🍲 الطواجن والشيف منى" },
-  { id: "seafood", enLabel: "🍤 Seafood & Fish", arLabel: "🍤 السمك والمأكولات البحرية" },
-  { id: "show", enLabel: "✨ Dinner Show & Late Night", arLabel: "✨ عروض السهرة وآخر الليل" },
-  { id: "hospitality", enLabel: "👑 Sim & Shereen’s Service", arLabel: "👑 ضيافة سيمو وشيرين" }
+  { id: "tagine", enLabel: "Tagines & Chef Mouna", arLabel: "الطواجن والشيف منى" },
+  { id: "seafood", enLabel: "Seafood & Fish", arLabel: "السمك والمأكولات البحرية" },
+  { id: "show", enLabel: "Dinner Show & Late Night", arLabel: "عروض السهرة وآخر الليل" },
+  { id: "hospitality", enLabel: "Sim & Shereen’s Service", arLabel: "ضيافة سيمو وشيرين" }
 ];
 
 const REVIEWS_DATA = [
@@ -1090,7 +1074,7 @@ const REVIEWS_DATA = [
     arBadge: "تقييم ★٥ على جوجل · ضيف موثق",
     topics: ["seafood", "hospitality"],
     enText:
-      "“I'm a Moroccan and the food here is as good as you can get. Great customer service, very clean place. The fried fish Moroccan style was good and generous. Honestly I want to thank the owners and the chef. I can't say we don't have a good Moroccan restaurant in town anymore 🙏”",
+      "“I'm a Moroccan and the food here is as good as you can get. Great customer service, very clean place. The fried fish Moroccan style was good and generous. Honestly I want to thank the owners and the chef. I can't say we don't have a good Moroccan restaurant in town anymore.”",
     arText:
       "«أنا مغربي والطعام هنا في قمة الأصالة والجودة. خدمة عملاء ممتازة ومكان نظيف جداً. السمك المقلي على الطريقة المغربية كان شهياً ووفيراً. أود أن أشكر أصحاب المطعم والشيف!»",
     enDishes: ["Moroccan-Style Fried Fish", "Authentic Moroccan Cuisine"],
@@ -1168,7 +1152,7 @@ const REVIEWS_DATA = [
     arBadge: "تقييم ★٥ على جوجل · خدمة مميزة",
     topics: ["hospitality"],
     enText:
-      "“I love this place, everything beyond expectations—food and customer service amazing, especially Shereen, she's the best!! Make sure to check out Simo, he’ll definitely get you right 🔥”",
+      "“I love this place, everything beyond expectations—food and customer service amazing, especially Shereen, she's the best!! Make sure to check out Simo, he’ll definitely get you right.”",
     arText:
       "«أحب هذا المكان، كل شيء فاق التوقعات — الطعام وخدمة العملاء مذهلة وخاصة شيرين وسيمو، قمة في الرقي والاهتمام!»",
     enDishes: ["Hosted by Simo & Shereen", "5-Star Service"],
@@ -1283,11 +1267,11 @@ function renderHeroSwitcher() {
 
   container.innerHTML = HERO_DISHES.map((dish, idx) => {
     const label = currentLang === "en" ? dish.enTitle : dish.arTitle;
-    const shortLabel = label.length > 22 ? label.slice(0, 20) + "…" : label;
+    const shortLabel = label.length > 20 ? label.slice(0, 18) + "…" : label;
     return `
       <button type="button" class="hero-thumb-btn ${idx === activeHeroIndex ? "active" : ""}" data-hero-idx="${idx}">
         <img src="${dish.cutoutImg}" alt="${label}" loading="lazy" />
-        <span>${shortLabel}</span>
+        <span>${dish.num} · ${shortLabel}</span>
       </button>
     `;
   }).join("");
@@ -1309,7 +1293,7 @@ function resetHeroAutoRotate() {
   }, 5600);
 }
 
-/* B. Signature Dishes Grid (Moorish Arch Cards) */
+/* B. Signature Dishes Grid (Architectural Brass Frame Cards) */
 function renderSignatureDishes() {
   const grid = document.getElementById("signatureGrid");
   if (!grid) return;
@@ -1320,7 +1304,6 @@ function renderSignatureDishes() {
     const title = currentLang === "en" ? dish.enTitle : dish.arTitle;
     const sub = currentLang === "en" ? dish.enSub : dish.arSub;
     const b1 = currentLang === "en" ? dish.enBadge1 : dish.arBadge1;
-    const b2 = currentLang === "en" ? dish.enBadge2 : dish.arBadge2;
     const desc = currentLang === "en" ? dish.enDesc : dish.arDesc;
     const quote = currentLang === "en" ? dish.enQuote : dish.arQuote;
 
@@ -1329,7 +1312,6 @@ function renderSignatureDishes() {
         <div class="sig-visual-stage">
           <div class="sig-top-badges">
             <span class="dish-tag">${b1}</span>
-            <span class="dish-tag ${dish.badge2Class}">${b2}</span>
           </div>
           <img src="${dish.cutoutImg}" alt="${title}" class="sig-card-img" loading="lazy" />
         </div>
@@ -1502,7 +1484,7 @@ function renderReviews() {
             <p class="review-text" style="margin-top: 0.75rem;">${text}</p>
           </div>
           <div class="review-dish-pills">
-            ${dishes.map((d) => `<span class="review-dish-pill">🍽️ ${d}</span>`).join("")}
+            ${dishes.map((d) => `<span class="review-dish-pill">${d}</span>`).join("")}
           </div>
         </article>
       `;
@@ -1614,8 +1596,8 @@ function openDishModal(dishId) {
       : "اتصل بالمطعم · 3991-507 (407)";
   const kitchenNote =
     currentLang === "en"
-      ? "✓ Prepared fresh to order in Chef Mouna’s kitchen · Dine-In & Takeout"
-      : "✓ يُحضر طازجاً عند الطلب في مطبخ الشيف منى · للصالات والطلبات الخارجية";
+      ? "Prepared fresh to order in Chef Mouna’s kitchen · Dine-In & Takeout"
+      : "يُحضر طازجاً عند الطلب في مطبخ الشيف منى · للصالات والطلبات الخارجية";
 
   content.innerHTML = `
     <div class="modal-dish-layout">
@@ -1625,11 +1607,11 @@ function openDishModal(dishId) {
       </div>
       <div>
         <div style="display:flex; justify-content:space-between; align-items:flex-start; gap:0.75rem; margin-bottom:0.65rem;">
-          <h3 style="font-family:var(--font-display); font-size:1.4rem; color:var(--gold-light); line-height:1.2;">${title}</h3>
+          <h3 style="font-family:var(--font-display); font-size:1.35rem; color:var(--gold-light); line-height:1.2;">${title}</h3>
           <span class="sig-price">${item.price}</span>
         </div>
-        <p style="color:var(--text-champagne); font-size:0.92rem; line-height:1.6; margin-bottom:0.9rem;">${desc}</p>
-        <p style="font-size:0.8rem; color:#6EE7B7; font-weight:700; margin-bottom:1.2rem;">${kitchenNote}</p>
+        <p style="color:var(--text-champagne); font-size:0.9rem; line-height:1.6; margin-bottom:0.9rem;">${desc}</p>
+        <p style="font-size:0.76rem; color:var(--gold-primary); font-weight:700; text-transform:uppercase; letter-spacing:0.06em; margin-bottom:1.2rem;">${kitchenNote}</p>
         <div style="display:flex; flex-direction:column; gap:0.6rem;">
           <a href="${DOORDASH_URL}" target="_blank" rel="noopener" class="btn btn-doordash" style="width:100%;">
             ${orderBtnText}
